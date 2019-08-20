@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+
+    <title>钟亮的个人博客</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="static/blog/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="static/blog/css/offcanvas.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="static/blog/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="static/blog/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+<!--这里是头部的引入点-->
+<div id="head_base"></div>
+
+
+    <div class="container">
+
+      <div class="row row-offcanvas row-offcanvas-right">
+        <div class="col-xs-12 col-sm-9">
+            <p class="pull-right visible-xs">
+            <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
+          </p>
+          <div class="jumbotron">
+
+
+   <div class="row">
+                    <div class="col-12">
+                <div class="thumbnail">
+                    <a href="https://www.bilibili.com/blackboard/html5player.html?cid=19885812&aid=12053279&page=4&as_wide=1">
+                  <img src="media/blog/article/icon/ppt.PNG" alt="..." style="width: 100%">
+                    </a>
+                </div>
+            </div><!--/.col-xs-6.col-lg-4-->
+
+                </div>
+
+
+
+            <h2 style="text-align: center">PPT教程第四课</h2>
+              <p>致各位访客：</p>
+            <p style="text-indent: 2em">把所有的夜归还给星河，把所有的春光归还给疏疏篱落。把所有的慵慵沉迷与不前，归还给过去的我。 明日之我，胸中有丘壑，立马振山河！</p>
+              <p style="text-align: right;font-size: 1em">——卡德先生</p>
+          </div>
+        </div><!--/.col-xs-12.col-sm-9-->
+          <!--这是右侧列表引入点-->
+          <div id="right_list_base"></div>
+
+      </div><!--/row-->
+
+      <hr>
+        <div id="footer_base"></div>
+
+    </div><!--/.container-->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="static/blog/js/jQuery.js"></script>
+    <script>window.jQuery || document.write('<script src="static/blog/js/jquery.min.js"><\/script>')</script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="static/blog/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="static/blog/js/offcanvas.js"></script>
+
+    <script>
+      $(function(){
+          $("#head_base").load("head_base.html");
+          $("#right_list_base").load("right_list_base.html");
+          $("#footer_base").load("footer_base.html");
+      });
+      </script>
+  </body>
+</html>
